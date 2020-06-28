@@ -1,8 +1,18 @@
+import images from 'assets/index';
+
 export const projects = [
   {
     title: 'Maudition',
     info: 'A mobile platform for hosting auditions',
     rolePlayed: '',
+    projectImages: [
+      images.mcategories,
+      images.mcompetitionDetail,
+      images.mcompetitionDetail2,
+      images.mcompetitions,
+      images.mpostview,
+      images.msplashscreen,
+    ],
     utilised: [
       'React Native',
       'Expo',
