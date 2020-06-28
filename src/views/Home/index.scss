@@ -1,0 +1,22 @@
+.home {
+  &__center {
+    margin: 20px auto;
+    width: 60%;
+    text-align: justify;
+  }
+}
+
+.about-me {
+  h2 {
+    text-align: center;
+  }
+}
+
+// project-card
+
+.project-card {
+  margin-top: 10px;
+  &__title {
+    font-weight: 700;
+  }
+}
