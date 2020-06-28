@@ -1,0 +1,18 @@
+.header-wrapper {
+  background-image: url('../../assets/black-white-me.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #cccccc;
+  height: 600px;
+
+  @media only screen and (max-width: 900px) {
+    height: 400px;
+  }
+  @media only screen and (max-width: 600px) {
+    height: 220px;
+  }
+  @media only screen and (max-width: 320px) {
+    height: 220px;
+  }
+}
