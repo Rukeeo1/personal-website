@@ -18,9 +18,14 @@ export default function Home() {
       </div>
       <div className="home__center">
         <h2>Projects</h2>
-        {/* projects comes in here should be a component */}
         {projects.map((project) => {
-          return <ProjectCard title={project.title} info={project.info} />;
+          return (
+            <ProjectCard
+              title={project.title}
+              info={project.info}
+              projectImages={project.projectImages}
+            />
+          );
         })}
       </div>
     </div>
