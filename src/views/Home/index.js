@@ -17,13 +17,14 @@ export default function Home() {
         </p>
       </div>
       <div className="home__center">
-        <h2>Projects</h2>
+        <h2 className="text-center">Projects</h2>
         {projects.map((project) => {
           return (
             <ProjectCard
               title={project.title}
               info={project.info}
               projectImages={project.projectImages}
+              utilizedTools={project.utilized}
             />
           );
         })}
