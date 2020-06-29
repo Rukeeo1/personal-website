@@ -13,63 +13,37 @@ export const projects = [
       images.mpostview,
       images.msplashscreen,
     ],
-    utilised: [
-      'React Native',
-      'Expo',
-      'React Navigation',
-      'Redux',
-      'NodeJS',
-      'Sequelize',
-      'Postgresql',
-      'Jest',
-    ],
+    utilized:
+      'ReactNative, Expo, ReactNavigation, Redux, NodeJS, Sequelize, Postgresql,Jest.',
   },
   {
     title: 'Peerless',
     rolePlayed: '',
     info:
       'A learning management solution for companies and educational institutions toeducate students, staff and conduct assessments.',
-    utilised: [
-      'React Native',
-      'Expo',
-      'React Navigation',
-      'Redux',
-      'NodeJS',
-      'Sequelize',
-      'Postgresql',
-      'Jest',
-    ],
+    utilized: 'React, Redux, React Storybook, Sass, Netlify',
   },
   {
-    title: 'Outwork',
+    title: 'Outwork CRM',
     rolePlayed: '',
-    info:
-      'A learning management solution for companies and educational institutions toeducate students, staff and conduct assessments.',
-    utilised: [
-      'React Native',
-      'Expo',
-      'React Navigation',
-      'Redux',
-      'NodeJS',
-      'Sequelize',
-      'Postgresql',
-      'Jest',
+    info: 'A workforce management solution for monitoring field workers',
+    projectImages: [
+      images.outworkmap,
+      images.outworktask,
+      images.outworkztp,
+      images.outworktaskdes,
+      images.outworksummary,
+      images.outworkreports,
+
     ],
+    utilized: 'React, Redux, Sass',
   },
   {
     title: 'Decagon Institute',
     rolePlayed: '',
     info:
       "Decagon is one of Nigeria's institute for training software engineers",
-    utilised: [
-      'React Native',
-      'Expo',
-      'React Navigation',
-      'Redux',
-      'NodeJS',
-      'Sequelize',
-      'Postgresql',
-      'Jest',
-    ],
+    utilized:
+      'REST api, Graphql, MySQL, PostgreSQL, React and Redux. Got introduced to Test Driven Development and Object Oriented Design,Continuous Integration, RESTful Api Design, Database Management System.',
   },
 ];
