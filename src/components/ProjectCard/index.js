@@ -10,7 +10,7 @@ export default function index({ title, info, projectImages, utilizedTools }) {
         <Carousel showThumbs={false}>
           {projectImages?.map((image, index) => (
             <div className="project-card__carousel-item" key={index}>
-              <img src={image} />
+              <img src={image} alt={`image ${index}`} />
             </div>
           ))}
         </Carousel>
