@@ -1,0 +1,49 @@
+.alt-project-card {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.2s; /* Animation */
+  &__image-wrapper {
+    height: 400px;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+  p {
+  }
+  .visit-btn {
+    font-family: 'Poppins', Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #1c31e2;
+    border-radius: 6px 6px 6px 6px;
+    // padding: 20px 20px 20px 20px;
+    padding: 1rem;
+    width: 300px;
+  }
+  &__body{
+    h1{
+      font-size: 1.6rem;
+    }
+    height: 300px;
+    // background: green;
+    padding: 1rem;
+  }
+}
+
+// .alt-project-card:hover {
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+//   border: 1px solid red;
+//   transform: scale(1.2);
+//   background: rgba(0, 0, 0, 0.1);
+// }

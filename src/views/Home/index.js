@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from 'components/Header';
 import ProjectCard from 'components/ProjectCard';
+import AltProjCard from 'components/ProjectCardAlt';
+
 import { projects } from 'data/workexperience';
 import './index.scss';
 
@@ -16,18 +18,18 @@ export default function Home() {
           interest in datascience.
         </p>
       </div>
-      <div className="home__center">
-        <h2 className="text-center">Projects</h2>
-        {projects.map((project) => {
-          return (
-            <ProjectCard
-              title={project.title}
-              info={project.info}
-              projectImages={project.projectImages}
-              utilizedTools={project.utilized}
-            />
-          );
-        })}
+
+      <div className="d-flex justify-content-center">
+        <h1>Projects</h1>
+      </div>
+      <div className="project-grid-wrap container">
+        {projects.map((project, index) => (
+          <AltProjCard
+            key={index}
+            project={project}
+            projectImages={project.projectImages || []}
+          />
+        ))}
       </div>
     </div>
   );
